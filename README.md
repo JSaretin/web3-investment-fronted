@@ -9,7 +9,7 @@ a web3 investment firm with esential functionalities like multi-level referral, 
 
 - [x] Calculate investment return
 - [x] Reward referral (registered and non-register)
-- > referral is refered based on the referral level set by the contract owner, this can also be used an affiliate-like process
+ > referral is refered based on the referral level set by the contract owner, this can also be used an affiliate-like process
 - [x] User investment
 - [x] Investment reward withdraw
 - [x] End investment
