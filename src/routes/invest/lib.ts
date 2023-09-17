@@ -37,6 +37,14 @@ export class InvestmentContract {
         }
     }
 
+    async calculateReward(
+        amount: number,
+        yearlyPercent: number,
+        duration: number
+    ): Promise<number> {
+        return await this.contract.methods.getPlans(amount, yearlyPercent, duration).call();
+    }
+
     async getPlans() {
         const result = await this.contract.methods.getPlans().call();
         return result
