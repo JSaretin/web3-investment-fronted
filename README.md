@@ -1,38 +1,25 @@
-# create-svelte
+## Investment Firm
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+a web3 investment firm with esential functionalities like multi-level referral, user investment and withdraw, dynamic investmen update (without write to the smart contract). View the smart contracts [here](https://github.com/JSaretin/web3-investment-contract)
 
-## Creating a project
 
-If you're seeing this, you've probably already done this step. Congrats!
+#### Features   
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
+##### User functions:
 
-# create a new project in my-app
-npm create svelte@latest my-app
-```
+- [x] Calculate investment return
+- [x] Reward referral (registered and non-register)
+- > referral is refered based on the referral level set by the contract owner, this can also be used an affiliate-like process
+- [x] User investment
+- [x] Investment reward withdraw
+- [x] End investment
 
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+##### Admin Functions:
+- [x] Create plan
+- [x] Edit plan
+- [x] Add referral level
+- [x] Edit referral level
+- [x] Disable all activities
+- [x] Disable only withdraw
+- [x] Disable only deposit (investment)
+- [x] Set continious referral rewarding (reward referral everytime their referree invest or one-time only)
